@@ -35,6 +35,15 @@ export async function loginController(req, res){
             })
         }
 
+        // check if user is permanently deleted
+        if(user.status === "DELETED"){
+            return res.status(403).json({
+                message: "Account is permanently deleted",
+                err: true,
+                success: false
+            })
+        }
+
         // compare the normal password with hash password
         const checkPassword = await bcryptjs.compare(password, user.password)
 
@@ -45,6 +54,26 @@ export async function loginController(req, res){
                 err: true,
                 success: false
             })
+        }
+
+        // Auto reavtivate if inactive but within 30 days
+        if(user.status == "INACTIVE"){
+            const inactiveDays = (Date.now() - new Date(user.inactiveSince))/(1000*60*60*24);
+            if(inactiveDays <=30){
+                user.status = "ACTIVE";
+                user.inactiveSince = null;
+                await user.save();
+
+                console.log(`user ${user.email} automatically reactivated upon login`);
+            } else {
+                user.status = "DELETED";
+                await user.save();
+                return res.status(403).json({
+                    message: "Account has been permanently deleted after 30 days",
+                    err: true,
+                    success: false
+                })
+            }
         }
 
         // if password is correct so for login purpose we'll send the token to the client side

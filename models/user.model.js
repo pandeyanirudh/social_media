@@ -38,12 +38,21 @@ const userSchema = new mongoose.Schema({
     },
     status:{
         type: String,
-        enum: ["ACTIVE", "INACTIVE", "SUSPENDED"],
+        enum: ["ACTIVE", "INACTIVE", "DELETED"],
         default: "ACTIVE"
     },
-    deleteAt:{
+    inactiveSince:{
         type: Date,
-    }
+        default: null
+    },
+    followers:[{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "user"
+    }],
+    following:[{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "user"
+    }]
 },{
     timestamps: true
 })
