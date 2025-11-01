@@ -11,7 +11,26 @@ steps to run this project:
 Use Postman or Apidog for chek the output
 eg. POST - http://localhost:1010/api/followUser
 
-Login-
-![Login Screenshot](social_media_output/login)
+Register - 
+![Register result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/register.png)
+
+Login -
 ![Login result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/login.png)
 
+Logout - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/logout.png)
+
+getUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/getUser.png)
+
+updateDetail - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/updateDetail.png)
+
+deleteUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/delete.png)
+
+followUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/followUser.png)
+
+unfollowUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/unfollowUser.png)
