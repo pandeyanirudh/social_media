@@ -1,0 +1,36 @@
+1. A RESTful API built with Node.js, Express.js, and MongoDB that powers a basic social media platform.
+2. It includes user authentication (JWT), post creation, like/unlike, and follow/unfollow features. 
+3. The system supports soft user deletion with a 30-day recovery window, ensuring data safety.
+
+steps to run this project:
+1. install vs code
+2. install nodejs
+3. npm install npm install bcryptjs cookie-parser dotenv express helmet jsonwebtoken mongodb mongoose morgan nodemon
+4. check the code is running or not run - npm run dev
+
+Use Postman or Apidog for chek the output
+eg. POST - http://localhost:1010/api/followUser
+
+Register - 
+![Register result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/register.png)
+
+Login -
+![Login result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/login.png)
+
+Logout - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/logout.png)
+
+getUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/getUser.png)
+
+updateDetail - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/updateDetail.png)
+
+deleteUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/delete.png)
+
+followUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/followUser.png)
+
+unfollowUser - 
+![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/unfollowUser.png)
