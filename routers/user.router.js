@@ -8,6 +8,10 @@ import { deleteUser } from '../controllers/delete.controller.js'
 import { followUser } from '../controllers/followUser.controller.js'
 import { unfollowUser } from '../controllers/unfollow.controller.js'
 import { checkFollowOrUnfollowStatus } from '../controllers/statusOfFollowOrUnfollow.controller.js'
+import { createPost } from '../controllers/createPost.controller.js'
+import { editPost } from '../controllers/editPost.controller.js'
+import { deletePost } from '../controllers/deletePost.controller.js'
+import { likeAndUnlikePost } from '../controllers/likeAndUnlikePost.controller.js'
 
 const userRoute = Router()
 
@@ -20,5 +24,9 @@ userRoute.delete('/deleteUser', deleteUser)
 userRoute.post('/followUser', followUser)
 userRoute.post('/unfollowUser', unfollowUser)
 userRoute.get('/checkFollowOrUnfollow', checkFollowOrUnfollowStatus)
+userRoute.post('/createPost', createPost)
+userRoute.put('/editPost', editPost)
+userRoute.delete('/deletePost', deletePost)
+userRoute.put('/likeUnlike', likeAndUnlikePost)
 
 export default userRoute;
