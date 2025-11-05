@@ -57,16 +57,16 @@ check Follow or Unfollow -
 ![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/checkStatusOfFollowOrUnfollow.png)
 
 createPost - 
-![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/createPost.png)
+![create post result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/createPost.png)
 
 editPost - 
-![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/editPost.png)
+![edit post result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/editPost.png)
 
 deletePost - 
-![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/deletePost.png)
+![delete post result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/deletePost.png)
 
 likeAndUnlike - 
-![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/likeUnlike.png)
+![like & unlike result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/likeUnlike.png)
 
 # summary
 This project demonstrates the core backend logic of a social media application —
