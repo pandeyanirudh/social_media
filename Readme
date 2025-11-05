@@ -3,6 +3,13 @@
 2. It includes user authentication (JWT), post creation, like/unlike, and follow/unfollow features. 
 3. The system supports soft user deletion with a 30-day recovery window, ensuring data safety.
 
+It includes:
+- User Authentication with JWT
+- Follow / Unfollow system
+- Post creation, editing, deleting, and liking
+- Soft user deletion with 30-day recovery
+- Secure, modular backend architecture
+
 # Clone the repository
 git clone https://github.com/pandeyanirudh/social_media.git
 
@@ -48,6 +55,18 @@ unfollowUser -
 
 check Follow or Unfollow - 
 ![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/checkStatusOfFollowOrUnfollow.png)
+
+createPost - 
+![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/createPost.png)
+
+editPost - 
+![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/editPost.png)
+
+deletePost - 
+![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/deletePost.png)
+
+likeAndUnlike - 
+![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/likeUnlike.png)
 
 # summary
 This project demonstrates the core backend logic of a social media application —
