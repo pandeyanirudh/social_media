@@ -78,7 +78,7 @@ export async function loginController(req, res){
 
         // if password is correct so for login purpose we'll send the token to the client side
         // now we can generate the token
-        const accessToken = await generateAccessToken(user._id)
+        const accessToken = generateAccessToken(user._id)
         const refreshToken = await generateRefreshToken(user._id)
 
         // now we'll send token inside the cookie
@@ -95,7 +95,8 @@ export async function loginController(req, res){
         return res.status(200).json({
             message: "Login Successfully",
             err: false,
-            success: true
+            success: true,
+            accessToken
         })
 
     }catch(err){
