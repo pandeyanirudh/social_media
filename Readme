@@ -39,22 +39,24 @@ Logout -
 ![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/logout.png)
 
 getUser - 
-![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/getUser.png)
+![get user result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/getUser.png)
 
 updateDetail - 
-![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/updateDetail.png)
+![user detail result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/updateDetail.png)
 
 deleteUser - 
-![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/Delete.png)
+![delete result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/Delete.png)
 
-followUser - 
-![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/followUser.png)
+follow_and_unfollow_user - 
+![follow and unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/follow_and_unfollow_user_01.png)
 
-unfollowUser - 
-![Logout result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/unfollowUser.png)
+follow_and_unfollow_user - 
+![follow and unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/follow_and_unfollow_user_02.png)
+
+
 
 check Follow or Unfollow - 
-![follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/checkStatusOfFollowOrUnfollow.png)
+![status follow or unfollow result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/checkStatusOfFollowOrUnfollow.png)
 
 createPost - 
 ![create post result Screenshot](https://github.com/pandeyanirudh/social_media/blob/main/social_media_output/createPost.png)
